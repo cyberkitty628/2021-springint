@@ -62,7 +62,7 @@ struct ContentView: View {
                     // Button that takes user to fortune screen
                     NavigationLink(destination: FortuneView()) {
                         Text("GET MY FORTUNE")
-                    }           .font(.system(size: 16, weight: .semibold, design:.serif))
+                    }           .font(.system(size: 18, weight: .semibold, design:.serif))
                     .shadow(color: .white, radius: 5)
                     .frame(width: 200)
                     .padding(.top, 10)
@@ -76,6 +76,12 @@ struct ContentView: View {
                     .navigationBarTitle("")
                     .navigationBarHidden(true)
                     .navigationBarBackButtonHidden(true)
+                    
+                    Text("Disclaimer: This tool is meant for entertainment purposes only. All readings are subject to interpretation.")
+                        .frame(width: 250)
+                        .multilineTextAlignment(.center)
+                        .font(.system(size: 9, weight: .light, design:.serif))
+                        .foregroundColor(.white)
                 }
             }
         }
@@ -91,16 +97,19 @@ struct ContentView: View {
                     .scaledToFill()
                     .edgesIgnoringSafeArea(.all)
                 
-                // Displays user question from previous view
-                VStack (alignment: .center, spacing: 30){
+                VStack (alignment: .center, spacing: 25){
                     
                     // Card fortune image and description
+                    Text("THE SUN")
+                        .font(.system(size: 25, weight: .semibold, design:.serif))
+                        .shadow(color: .white, radius: 5)
+                        .foregroundColor(.white)
                     Image("The Sun")
                         .resizable()
-                        .frame(width: 150, height: 250)
+                        .frame(width: 140, height: 240)
                     Text("A period of good fortune and reward. You are enjoying life and feeling optimistic about the future. There is happiness and harmony in your relationships and ventures, and undertakings are likely to succeed. The Sun shines a light on everything you do. A very good sign.")
                         .frame(width: 220)
-                        .font(.system(size: 12, weight: .ultraLight, design:.serif))
+                        .font(.system(size: 11, weight: .ultraLight, design:.serif))
                         .foregroundColor(.white)
                         .multilineTextAlignment(.center)
                         .lineSpacing(3)
@@ -108,7 +117,8 @@ struct ContentView: View {
                     // Button that takes user back to main screen
                     NavigationLink(destination: ContentView()) {
                         Text("ASK ANOTHER QUESTION")
-                    }           .font(.system(size: 14, weight: .semibold, design:.serif))
+                    }
+                    .font(.system(size: 14, weight: .semibold, design:.serif))
                     .shadow(color: .white, radius: 5)
                     .frame(width: 210)
                     .padding(10)

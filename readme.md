@@ -14,4 +14,4 @@ No subscription fees, in-app purchases or other commitments to try out tarot. **
 
 ## App Preview
 
-insert image
+<img src="/preview1.png" width="300"> <img src="/preview2.png" width="300">
