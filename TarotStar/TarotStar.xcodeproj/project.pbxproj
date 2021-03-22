@@ -11,6 +11,7 @@
 		843B6C842606E901007589E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B6C832606E901007589E1 /* ContentView.swift */; };
 		843B6C862606E902007589E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843B6C852606E902007589E1 /* Assets.xcassets */; };
 		843B6C892606E902007589E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843B6C882606E902007589E1 /* Preview Assets.xcassets */; };
+		843B6CA626092D4E007589E1 /* LinLibertine_aDRS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843B6C9626092D4D007589E1 /* LinLibertine_aDRS.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		843B6C852606E902007589E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843B6C882606E902007589E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		843B6C8A2606E902007589E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843B6C9626092D4D007589E1 /* LinLibertine_aDRS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LinLibertine_aDRS.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				843B6C812606E901007589E1 /* TarotStarApp.swift */,
 				843B6C832606E901007589E1 /* ContentView.swift */,
+				843B6C9426092C7F007589E1 /* fonts */,
 				843B6C852606E902007589E1 /* Assets.xcassets */,
 				843B6C8A2606E902007589E1 /* Info.plist */,
 				843B6C872606E902007589E1 /* Preview Content */,
@@ -67,6 +70,14 @@
 				843B6C882606E902007589E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		843B6C9426092C7F007589E1 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				843B6C9626092D4D007589E1 /* LinLibertine_aDRS.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 			files = (
 				843B6C892606E902007589E1 /* Preview Assets.xcassets in Resources */,
 				843B6C862606E902007589E1 /* Assets.xcassets in Resources */,
+				843B6CA626092D4E007589E1 /* LinLibertine_aDRS.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
