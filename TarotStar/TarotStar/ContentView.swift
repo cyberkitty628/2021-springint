@@ -134,20 +134,11 @@ struct ContentView: View {
         }
     }
     
-    // CUSTOM FONT TEST
-    struct LinLibertine: View {
-        var body: some View {
-            Text("Hello, World!")
-                .font(Font.custom("LinLibertine_aDRS.ttf", size: 40))
-        }
-    }
-    
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             Group {
                 ContentView()
                 FortuneView()
-                LinLibertine()
             }
         }
     }
