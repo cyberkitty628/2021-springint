@@ -11,6 +11,8 @@
 		843B6C842606E901007589E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B6C832606E901007589E1 /* ContentView.swift */; };
 		843B6C862606E902007589E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843B6C852606E902007589E1 /* Assets.xcassets */; };
 		843B6C892606E902007589E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843B6C882606E902007589E1 /* Preview Assets.xcassets */; };
+		843B6CBD260A6699007589E1 /* TarotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B6CBC260A6699007589E1 /* TarotCard.swift */; };
+		843B6CC1260A6782007589E1 /* FortuneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B6CC0260A6782007589E1 /* FortuneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		843B6C852606E902007589E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843B6C882606E902007589E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		843B6C8A2606E902007589E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843B6CBC260A6699007589E1 /* TarotCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotCard.swift; sourceTree = "<group>"; };
+		843B6CC0260A6782007589E1 /* FortuneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 			children = (
 				843B6C812606E901007589E1 /* TarotStarApp.swift */,
 				843B6C832606E901007589E1 /* ContentView.swift */,
+				843B6CBC260A6699007589E1 /* TarotCard.swift */,
 				843B6C852606E902007589E1 /* Assets.xcassets */,
 				843B6C8A2606E902007589E1 /* Info.plist */,
 				843B6C872606E902007589E1 /* Preview Content */,
+				843B6CC0260A6782007589E1 /* FortuneView.swift */,
 			);
 			path = TarotStar;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				843B6C842606E901007589E1 /* ContentView.swift in Sources */,
+				843B6CC1260A6782007589E1 /* FortuneView.swift in Sources */,
+				843B6CBD260A6699007589E1 /* TarotCard.swift in Sources */,
 				843B6C822606E901007589E1 /* TarotStarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
