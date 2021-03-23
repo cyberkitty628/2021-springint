@@ -1,15 +1,11 @@
-//
-//  FortuneView.swift
-//  TarotStar
-//
-//  Created by admin on 3/23/21.
-//
+// FORTUNE VIEW
+// Displays a random card fortune for the user after asking their question
 
 import SwiftUI
 
-// DISPLAY FORTUNE VIEW
 struct FortuneView: View {
 
+    // Draws from our TarotCard database file to get card element
     var currentCard: TarotCard = TarotData().getCard()
     
     var body: some View {

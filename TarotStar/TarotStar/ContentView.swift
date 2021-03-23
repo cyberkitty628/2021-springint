@@ -1,9 +1,5 @@
-//
-//  ContentView.swift
-//  TarotStar
-//
-//  Created by admin on 3/20/21.
-//
+// CONTENT VIEW
+// Main view and opening screen with text input for user to ask question
 
 import SwiftUI
 
@@ -91,7 +87,6 @@ struct ContentView: View {
         static var previews: some View {
             Group {
                 ContentView()
-                
             }
         }
     }
