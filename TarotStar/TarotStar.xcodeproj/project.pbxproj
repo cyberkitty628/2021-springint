@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				843B6C812606E901007589E1 /* TarotStarApp.swift */,
-				843B6C832606E901007589E1 /* ContentView.swift */,
 				843B6CBC260A6699007589E1 /* TarotCard.swift */,
+				843B6C832606E901007589E1 /* ContentView.swift */,
+				843B6CC0260A6782007589E1 /* FortuneView.swift */,
 				843B6C852606E902007589E1 /* Assets.xcassets */,
 				843B6C8A2606E902007589E1 /* Info.plist */,
 				843B6C872606E902007589E1 /* Preview Content */,
-				843B6CC0260A6782007589E1 /* FortuneView.swift */,
 			);
 			path = TarotStar;
 			sourceTree = "<group>";

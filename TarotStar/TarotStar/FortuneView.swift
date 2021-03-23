@@ -1,5 +1,5 @@
 //
-//  TarotCardView.swift
+//  FortuneView.swift
 //  TarotStar
 //
 //  Created by admin on 3/23/21.
